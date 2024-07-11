@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if 'installed' file exists
 if [ -f ~/installed ]; then
