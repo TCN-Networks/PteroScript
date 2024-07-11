@@ -3,7 +3,7 @@
 # Check if 'installed' file exists
 if [ -f ~/installed ]; then
     echo "Already installed. Skipping installation."
-    ~/shell.sh
+    bash ~/shell.sh
     exit 0
 fi
 
@@ -173,4 +173,4 @@ bash
 EOF
 
 # Launch shell.sh
-~/shell.sh
+bash ~/shell.sh
