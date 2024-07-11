@@ -13,7 +13,7 @@ echo -e "\e[101mYour container in 3 seconds...\e[0m"
 sleep 1
 echo -e "\e[101mYour container in 2 seconds...\e[0m"
 sleep 1
-echo -e "\e[101mYour container in 1 seconds...\e[0m"
+echo -e "\e[101mYour container in 1 second...\e[0m"
 sleep 1
 echo -e "\e[101mProvisioning your container!\e[0m"
 echo -e "\e[0m"
@@ -21,8 +21,10 @@ echo -e "\e[0m"
 # Adding a 2-second delay
 sleep 3
 
-# clear your browsing history
+# Clearing the screen
 clear
+
+# Outputting the subsequent text with correct escape sequences
 echo -e "\e[0m"
 echo -e "\e[0m"
 echo -e "\e[0;95m████████╗ ██████╗███╗   ██╗    ███╗   ██╗███████╗████████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗"
