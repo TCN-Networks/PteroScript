@@ -173,4 +173,5 @@ bash
 EOF
 
 # Launch shell.sh
+chmod +x ~/shell.sh
 bash ~/shell.sh
