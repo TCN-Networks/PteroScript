@@ -3,7 +3,6 @@
 # Check if 'installed' file exists
 if [ -f ~/installed ]; then
     bash ~/shell.sh
-    exit 0
 fi
 
 # Create 'installed' file to mark installation
