@@ -165,7 +165,6 @@ echo -e "\e[32m"
 echo -e "\e[32m#####################################################"
 echo -e "\e[0m"
 echo -e "\e[0m"
-bash
 
 # End of script
 EOF
