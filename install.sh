@@ -2,7 +2,6 @@
 
 # Check if 'installed' file exists
 if [ -f ~/installed ]; then
-    echo "Already installed. Skipping installation."
     bash ~/shell.sh
     exit 0
 fi
