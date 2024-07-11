@@ -171,4 +171,4 @@ EOF
 
 # Launch shell.sh
 chmod +x ~/shell.sh
-bash ~/shell.sh
+~/shell.sh
